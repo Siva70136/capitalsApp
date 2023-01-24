@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 30px;
+}
+.input-container {
+  display: flex;
+}
+
+.select {
+  margin: 5px;
+}
+
+.capital {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
